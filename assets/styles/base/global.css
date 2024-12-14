@@ -8,14 +8,12 @@
     --color-purple-primary: #A259FF;
     --color-card-primary: #3B3B3B;
     --color-white-primary: #FFFFFF;
-    /*Fontes*/
-    --font-primary: font-family: "Roboto", sans-serif;
 }
 
 body{
     min-height: 100vh;
     background-color: var(--color-backround-primary);
-    font-family: var(--font-primary);
+    font-family: "Roboto", sans-serif;
 }
 
 button{
