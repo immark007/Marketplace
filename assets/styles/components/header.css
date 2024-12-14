@@ -1,11 +1,11 @@
-#header{
+.header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1366px;
+    width: 100%;
     margin-inline: auto;
-
-
+    padding-block: 1.5rem;
+    padding-inline: 2.8rem;
 }
 
 

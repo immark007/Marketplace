@@ -3,3 +3,6 @@
 @import url('base/reset.css');
 /*Components*/
 @import url('components/header.css');
+
+/*Estilos de Sign*/
+@import url('components/styles-create-acount/sign.css');
