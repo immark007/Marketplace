@@ -1,3 +1,5 @@
 /*Arquivos de reset e globais*/
 @import url('base/global.css');
 @import url('base/reset.css');
+/*Components*/
+@import url('components/header.css');
