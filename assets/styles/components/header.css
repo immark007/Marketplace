@@ -1,0 +1,56 @@
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1366px;
+    margin-inline: auto;
+
+
+}
+
+
+.header__logo{
+    text-decoration: none;
+}
+
+.header__ul{
+    display: flex;
+    list-style: none;
+    gap: 3rem;
+    align-items: center;
+}
+
+.header__li{
+    transition: all 0.3s ease-in-out
+}
+
+.header__li:hover{
+    transform: scale(0.8);
+}
+
+.header__a,
+.header__btn{
+    color: var(--color-white-primary);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.header__btn{
+    display: flex;
+    align-items: center;
+    gap: 0.55rem;
+    background: var(--color-purple-primary);
+    padding: 0.7em 1.20em;
+    border-radius: 1rem;
+    transition: all 0.3s ease-in-out
+}
+
+.header__btn:hover{
+    transform: scale(0.8);
+}
+
+.users__icon{
+    width: 1.50rem;
+    height: 1.50rem;
+}
